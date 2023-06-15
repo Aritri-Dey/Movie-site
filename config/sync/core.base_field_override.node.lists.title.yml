@@ -1,0 +1,18 @@
+uuid: 59cb85e0-d5dd-4fb0-92ce-97d37dd7485a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.lists
+id: node.lists.title
+field_name: title
+entity_type: node
+bundle: lists
+label: 'List Title'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

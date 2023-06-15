@@ -1,0 +1,8 @@
+uuid: adb2487d-a57e-4d03-ae3d-a00115c3b8e3
+langcode: en
+status: true
+dependencies: {  }
+id: review
+label: Review
+target_entity_type_id: node
+description: 'Reviews on a movie.'

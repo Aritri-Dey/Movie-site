@@ -1,0 +1,8 @@
+uuid: 269d46ee-d295-4b50-952e-fc77a1d53466
+langcode: en
+status: true
+dependencies: {  }
+name: 'News Genre'
+vid: news_genre
+description: 'Genre of news.'
+weight: 0

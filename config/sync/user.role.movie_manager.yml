@@ -1,0 +1,22 @@
+uuid: 6dad9378-f615-4695-b05b-943e8f1e8e94
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.lists
+    - node.type.movies
+  module:
+    - node
+id: movie_manager
+label: 'Movie Manager'
+weight: 4
+is_admin: null
+permissions:
+  - 'create lists content'
+  - 'create movies content'
+  - 'edit any lists content'
+  - 'edit any movies content'
+  - 'edit own lists content'
+  - 'edit own movies content'
+  - 'view lists revisions'
+  - 'view movies revisions'

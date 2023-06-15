@@ -1,0 +1,25 @@
+uuid: 0eb940c0-e946-49eb-a048-2f91b87532e3
+langcode: en
+status: true
+dependencies:
+  module:
+    - quicktabs
+    - system
+  theme:
+    - bootstrap5
+id: quicktabsnewstab
+theme: bootstrap5
+region: content
+weight: 0
+provider: null
+plugin: 'quicktabs_block:news_tab'
+settings:
+  id: 'quicktabs_block:news_tab'
+  label: 'QuickTabs - News Tab'
+  label_display: '0'
+  provider: quicktabs
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /landing-page

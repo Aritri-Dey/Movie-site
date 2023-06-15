@@ -1,0 +1,18 @@
+uuid: f10849c4-d2c0-4e44-97be-4da80bbe1d8a
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Lists
+type: lists
+description: 'A particular list list of movies (eg- favourite movies list) .'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true
