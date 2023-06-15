@@ -1,0 +1,19 @@
+uuid: 666b609e-6827-4511-b174-0c5c31a6ff69
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.review
+    - field.storage.comment.field_add_review
+id: comment.review.field_add_review
+field_name: field_add_review
+entity_type: comment
+bundle: review
+label: 'Add Review'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

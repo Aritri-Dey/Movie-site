@@ -1,0 +1,65 @@
+uuid: 91a5367e-a9b2-4881-895f-b85441891e0f
+langcode: en
+status: true
+dependencies: {  }
+id: news_tab
+label: 'News Tab'
+renderer: quick_tabs
+hide_empty_tabs: false
+default_tab: 9999
+options:
+  quick_tabs:
+    ajax: false
+    class: ''
+    style: tabsbar
+  accordion_tabs:
+    jquery_ui:
+      collapsible: false
+      heightStyle: auto
+configuration_data:
+  -
+    title: 'Movie News'
+    weight: 0
+    type: block_content
+    content:
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      view_content:
+        options:
+          vid: block_content
+          display: default
+          args: ''
+      block_content:
+        options:
+          bid: 'views_block:movie_news_block-block_1'
+          block_title: ''
+          display_title: false
+      qtabs_content:
+        options:
+          machine_name: ''
+  -
+    title: 'Celeb News'
+    weight: 0
+    type: block_content
+    content:
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      view_content:
+        options:
+          vid: block_content
+          display: default
+          args: ''
+      block_content:
+        options:
+          bid: 'views_block:celebrity_news_block-block_1'
+          block_title: ''
+          display_title: false
+      qtabs_content:
+        options:
+          machine_name: ''

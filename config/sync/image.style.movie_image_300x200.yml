@@ -1,0 +1,15 @@
+uuid: 1c731ecb-3c57-44e7-8c90-e4e371e9dbcc
+langcode: en
+status: true
+dependencies: {  }
+name: movie_image_300x200
+label: 'Movie image 300x200'
+effects:
+  8f2ec081-6003-4054-8e40-4cd7b88f5347:
+    uuid: 8f2ec081-6003-4054-8e40-4cd7b88f5347
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 300
+      height: 200
+      anchor: center-center

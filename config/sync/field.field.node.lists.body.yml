@@ -1,0 +1,23 @@
+uuid: 5d7891a7-6961-45bf-9579-46b4d984b9db
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.lists
+  module:
+    - text
+id: node.lists.body
+field_name: body
+entity_type: node
+bundle: lists
+label: 'List description'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

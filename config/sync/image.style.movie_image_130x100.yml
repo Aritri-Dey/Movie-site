@@ -1,0 +1,15 @@
+uuid: e53d5fd9-60b3-4c1f-99df-7744075fafda
+langcode: en
+status: true
+dependencies: {  }
+name: movie_image_130x100
+label: 'Movie image 130x100'
+effects:
+  cd63912c-d7d9-418d-8d79-180eecb0f829:
+    uuid: cd63912c-d7d9-418d-8d79-180eecb0f829
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 130
+      height: 100
+      anchor: center-center

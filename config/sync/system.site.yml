@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 565a2f7f-ef79-445c-a951-11106bcd1c81
+name: 'Movie Mania'
+mail: dey.aritri209@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /landing-page
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

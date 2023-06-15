@@ -1,0 +1,34 @@
+uuid: f914d35c-9f68-4529-b96c-ba4d2c10ad01
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.review
+    - field.field.comment.review.field_add_review
+id: comment.review.default
+targetEntityType: comment
+bundle: review
+mode: default
+content:
+  author:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_add_review:
+    type: string_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  subject:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

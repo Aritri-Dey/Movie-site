@@ -1,0 +1,29 @@
+uuid: aeea8a00-a244-453b-a511-7492412292e0
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.latest_reviews
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap5
+id: views_block__latest_reviews_block_1
+theme: bootstrap5
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:latest_reviews-block_1'
+settings:
+  id: 'views_block:latest_reviews-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /landing-page
